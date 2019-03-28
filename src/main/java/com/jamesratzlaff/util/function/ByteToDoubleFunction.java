@@ -12,8 +12,8 @@ public interface ByteToDoubleFunction {
 
 	/**
 	 * 
-	 * @param b
-	 * @return
+	 * @param b byte
+	 * @return double
 	 */
 	double applyAsDouble(byte b);
 	

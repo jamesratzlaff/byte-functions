@@ -12,8 +12,8 @@ public interface BytePredicate {
 
 	/**
 	 * 
-	 * @param b
-	 * @return
+	 * @param b byte
+	 * @return boolean
 	 */
 	boolean test(byte b);
 	

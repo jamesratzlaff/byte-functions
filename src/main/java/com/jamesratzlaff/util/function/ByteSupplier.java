@@ -10,5 +10,9 @@ package com.jamesratzlaff.util.function;
  */
 @FunctionalInterface
 public interface ByteSupplier {
+	/**
+	 * 
+	 * @return byte
+	 */
 	byte getAsByte();
 }

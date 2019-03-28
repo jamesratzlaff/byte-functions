@@ -10,6 +10,11 @@ package com.jamesratzlaff.util.function;
 @FunctionalInterface
 public interface ByteToLongFunction {
 
+	/**
+	 * 
+	 * @param b byte
+	 * @return long
+	 */
 	long applyAsLong(byte b);
 	
 }

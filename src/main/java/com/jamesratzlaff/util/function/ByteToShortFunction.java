@@ -10,6 +10,11 @@ package com.jamesratzlaff.util.function;
 @FunctionalInterface
 public interface ByteToShortFunction {
 
+	/**
+	 * 
+	 * @param b byte
+	 * @return short
+	 */
 	short applyAsShort(byte b);
 	
 }

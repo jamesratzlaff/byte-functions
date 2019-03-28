@@ -11,8 +11,8 @@ package com.jamesratzlaff.util.function;
 public interface ByteToIntFunction {
 	/**
 	 * 
-	 * @param b
-	 * @return
+	 * @param b byte
+	 * @return int
 	 */
 	int applyAsInt(byte b);
 }

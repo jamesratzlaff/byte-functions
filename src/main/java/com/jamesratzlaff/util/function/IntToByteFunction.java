@@ -9,8 +9,8 @@ public interface IntToByteFunction {
 
 	/**
 	 * 
-	 * @param i
-	 * @return
+	 * @param i int
+	 * @return byte
 	 */
 	byte applyAsByte(int i);
 	

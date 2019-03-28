@@ -11,7 +11,7 @@ package com.jamesratzlaff.util.function;
 public interface ByteConsumer {
 	/**
 	 * 
-	 * @param b
+	 * @param b byte
 	 */
 	void accept(byte b);
 	

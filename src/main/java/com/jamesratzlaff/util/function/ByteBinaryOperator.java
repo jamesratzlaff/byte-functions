@@ -13,12 +13,17 @@ import java.util.function.IntBinaryOperator;
 public interface ByteBinaryOperator {
 	/**
 	 * 
-	 * @param a
-	 * @param b
-	 * @return
+	 * @param left byte
+	 * @param right byte
+	 * @return a byte representing some operation of a and b
 	 */
 	byte applyAsByte(byte left, byte right);
 	
+	/**
+	 * 
+	 * @param intbin {@link IntBinaryOperator}
+	 * @return {@link ByteUnaryOperator}
+	 */
 	static ByteBinaryOperator asUnsignedIntBinaryOperator(IntBinaryOperator intbin) {
 		return (a,b)->(byte)intbin.applyAsInt(Byte.toUnsignedInt(a), Byte.toUnsignedInt(b));
 	}

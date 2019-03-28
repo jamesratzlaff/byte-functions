@@ -8,8 +8,8 @@ package com.jamesratzlaff.util.function;
 public interface IntByteConsumer {
 	/**
 	 * 
-	 * @param i
-	 * @param b
+	 * @param i int
+	 * @param b byte
 	 */
 	void accept(int i, byte b);
 }
