@@ -7,7 +7,7 @@ package com.jamesratzlaff.util.function;
  * @param <T> T
  */
 @FunctionalInterface
-public interface ObjIntToByteBiFunction<T> {
+public interface ObjIntToByteFunction<T> {
 
 	/**
 	 * 
